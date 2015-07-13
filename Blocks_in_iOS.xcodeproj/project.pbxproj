@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3827C62E1B53DD3800E12473 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3827C62D1B53DD3800E12473 /* .gitignore */; };
+		38EDC2281B3C2F2700AF82FE /* Downloader+DownloaderCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDC2271B3C2F2700AF82FE /* Downloader+DownloaderCategory.m */; };
 		38EF298D1B3BD1C90036EEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF298C1B3BD1C90036EEDF /* main.m */; };
 		38EF29901B3BD1C90036EEDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF298F1B3BD1C90036EEDF /* AppDelegate.m */; };
 		38EF29931B3BD1C90036EEDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF29921B3BD1C90036EEDF /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		38EF29981B3BD1CA0036EEDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EF29971B3BD1CA0036EEDF /* Images.xcassets */; };
 		38EF299B1B3BD1CA0036EEDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EF29991B3BD1CA0036EEDF /* LaunchScreen.xib */; };
 		38EF29A71B3BD1CA0036EEDF /* Blocks_in_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF29A61B3BD1CA0036EEDF /* Blocks_in_iOSTests.m */; };
+		38EF29B21B3BDB620036EEDF /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF29B11B3BDB620036EEDF /* Downloader.m */; };
+		38EF29B51B3BDD4F0036EEDF /* CustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EF29B41B3BDD4F0036EEDF /* CustomActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3827C62D1B53DD3800E12473 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		38EDC2261B3C2F2700AF82FE /* Downloader+DownloaderCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Downloader+DownloaderCategory.h"; sourceTree = "<group>"; };
+		38EDC2271B3C2F2700AF82FE /* Downloader+DownloaderCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Downloader+DownloaderCategory.m"; sourceTree = "<group>"; };
 		38EF29871B3BD1C90036EEDF /* Blocks_in_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocks_in_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EF298B1B3BD1C90036EEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38EF298C1B3BD1C90036EEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,10 @@
 		38EF29A01B3BD1CA0036EEDF /* Blocks_in_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blocks_in_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EF29A51B3BD1CA0036EEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38EF29A61B3BD1CA0036EEDF /* Blocks_in_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blocks_in_iOSTests.m; sourceTree = "<group>"; };
+		38EF29B01B3BDB620036EEDF /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		38EF29B11B3BDB620036EEDF /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		38EF29B31B3BDD4F0036EEDF /* CustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActionSheet.h; sourceTree = "<group>"; };
+		38EF29B41B3BDD4F0036EEDF /* CustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,13 @@
 		38EF297E1B3BD1C90036EEDF = {
 			isa = PBXGroup;
 			children = (
+				3827C62D1B53DD3800E12473 /* .gitignore */,
+				38EDC2261B3C2F2700AF82FE /* Downloader+DownloaderCategory.h */,
+				38EDC2271B3C2F2700AF82FE /* Downloader+DownloaderCategory.m */,
+				38EF29B31B3BDD4F0036EEDF /* CustomActionSheet.h */,
+				38EF29B41B3BDD4F0036EEDF /* CustomActionSheet.m */,
+				38EF29B01B3BDB620036EEDF /* Downloader.h */,
+				38EF29B11B3BDB620036EEDF /* Downloader.m */,
 				38EF29891B3BD1C90036EEDF /* Blocks_in_iOS */,
 				38EF29A31B3BD1CA0036EEDF /* Blocks_in_iOSTests */,
 				38EF29881B3BD1C90036EEDF /* Products */,
@@ -199,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3827C62E1B53DD3800E12473 /* .gitignore in Resources */,
 				38EF29961B3BD1C90036EEDF /* Main.storyboard in Resources */,
 				38EF299B1B3BD1CA0036EEDF /* LaunchScreen.xib in Resources */,
 				38EF29981B3BD1CA0036EEDF /* Images.xcassets in Resources */,
@@ -219,8 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38EF29B51B3BDD4F0036EEDF /* CustomActionSheet.m in Sources */,
 				38EF29931B3BD1C90036EEDF /* ViewController.m in Sources */,
 				38EF29901B3BD1C90036EEDF /* AppDelegate.m in Sources */,
+				38EDC2281B3C2F2700AF82FE /* Downloader+DownloaderCategory.m in Sources */,
+				38EF29B21B3BDB620036EEDF /* Downloader.m in Sources */,
 				38EF298D1B3BD1C90036EEDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 				38EF29AC1B3BD1CA0036EEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38EF29AD1B3BD1CA0036EEDF /* Build configuration list for PBXNativeTarget "Blocks_in_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				38EF29AF1B3BD1CA0036EEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
